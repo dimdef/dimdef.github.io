@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'PantonExtraBold';
+    src: url('fonts/PantonExtraBold.eot');
+    src: url('fonts/PantonExtraBold.eot') format('embedded-opentype'),
+         url('fonts/PantonExtraBold.woff2') format('woff2'),
+         url('fonts/PantonExtraBold.woff') format('woff'),
+         url('fonts/PantonExtraBold.ttf') format('truetype'),
+         url('fonts/PantonExtraBold.svg#PantonExtraBold') format('svg');
+}

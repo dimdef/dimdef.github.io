@@ -1,0 +1,269 @@
+@font-face {
+	font-family: 'PantonBlack';
+	src: url('/fonts/PantonBlack.eot');
+	src: url('/fonts/PantonBlack.eot') format('embedded-opentype'),
+	url('/fonts/PantonBlack.woff2') format('woff2'),
+	url('/fonts/PantonBlack.woff') format('woff'),
+	url('/fonts/PantonBlack.ttf') format('truetype'),
+	url('/fonts/PantonBlack.svg#PantonBlack') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'PantonLight';
+	src: url('/fonts/PantonLight.eot');
+	src: url('/fonts/PantonLight.eot') format('embedded-opentype'),
+	url('/fonts/PantonLight.woff2') format('woff2'),
+	url('/fonts/PantonLight.woff') format('woff'),
+	url('/fonts/PantonLight.ttf') format('truetype'),
+	url('/fonts/PantonLight.svg#PantonLight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PantonExtraBold';
+	src: url('fonts/PantonExtraBold.eot');
+	src: url('fonts/PantonExtraBold.eot') format('embedded-opentype'),
+	url('fonts/PantonExtraBold.woff2') format('woff2'),
+	url('fonts/PantonExtraBold.woff') format('woff'),
+	url('fonts/PantonExtraBold.ttf') format('truetype'),
+	url('fonts/PantonExtraBold.svg#PantonExtraBold') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'PantonSemiBold';
+	src: url('/fonts/PantonSemiBold.eot');
+	src: url('/fonts/PantonSemiBold.eot') format('embedded-opentype'),
+	url('/fonts/PantonSemiBold.woff2') format('woff2'),
+	url('/fonts/PantonSemiBold.woff') format('woff'),
+	url('/fonts/PantonSemiBold.ttf') format('truetype'),
+	url('/fonts/PantonSemiBold.svg#PantonSemiBold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.PantonBlack {
+	font-family: 'PantonBlack', sans-serif;
+
+}
+.Pantonlight {
+	font-family: 'PantonLight', sans-serif;
+
+}
+.PantonExtraBold {
+	font-family: 'PantonExtraBold', sans-serif;
+}
+
+.PantonSemiBold {
+	font-family: 'PantonSemiBold';
+}
+
+.header {
+	height: 10rem;
+	text-align: center;
+	display: inline-block;
+	&-left__block {
+		margin-top: 10%;
+		.PantonExtraBold;
+		color: #363636;
+		font-size: 1.5rem; /* Approximation due to font substitution */
+		font-weight: 700;
+	}
+	&-phone {
+
+		.PantonExtraBold;
+		color: #363636;
+		font-size: 1.875rem; /* Approximation due to font substitution */
+		font-weight: 700;
+	}
+	&-link {
+		.PantonSemiBold;
+		color: #363636;
+		font-size: 1.625rem; /* Approximation due to font substitution */
+		font-weight: 600;
+		text-align: center;
+		border-radius: 10px;
+		border-width: 2px;
+		border-color: #282828;
+		border-style: solid;
+		padding: 1.2rem;
+		width: 263px;
+		height: 47px;
+		&:hover {
+			text-decoration: none;
+			color: #363636;
+		}
+	}
+}
+
+.menu {
+	background-color: #292d30;
+	text-align: center;
+
+	text-decoration: none;
+	li {
+		padding-right: 1rem;
+		margin-top: 2rem;
+		display: inline;
+		a {	
+			.Pantonlight;
+			color: #ffffff;
+			font-size: 1.875rem; /* Approximation due to font substitution */
+			font-weight: 300;
+			text-align: center;
+			text-transform: none;
+			text-decoration: none;
+			&:hover {
+				color: #ffffff;
+				text-decoration: none;
+
+			}	
+		}
+	}
+}
+.main {
+	text-align: center;
+	background: url(../img/bg.jpg) no-repeat center center;
+	background-size: cover;
+	&-logo {
+		display: inline-block; 
+		background: url(../img/BeamLightLogoWhite.svg) no-repeat center center;
+		background-size: 100%;
+		height: 8rem;
+		width: 47rem;
+		margin-top: 10rem;
+	}
+	&-text1 {
+		.PantonBlack;
+		color: #ffffff;
+		font-size: 2.5rem; /* Approximation due to font substitution */
+		font-weight: 900;
+	}
+	&-text2 {
+		.PantonSemiBold;
+		color: #ffffff;
+		font-size: 1.5rem; /* Approximation due to font substitution */
+		font-weight: 600;
+
+	}
+	&-text3 {
+		line-height: 7rem;
+		vertical-align: top;
+		margin-top: 5rem;
+		.PantonSemiBold;
+		color: #ffffff;
+		font-size: 1.5rem; /* Approximation due to font substitution */
+		font-weight: 600;
+		text-align: center;
+		&:after{
+			content: url('../img/arrow.svg');
+			vertical-align: bottom;
+			display: inline-block;
+			width: 3rem;
+			height: 3rem;
+			padding-top: 0rem;
+		}
+	}
+	&-btn {
+		padding: 1.2rem;
+		margin-top: 3rem;
+		background-color: #059feb;
+		width: 350px;
+		height: 66px;
+		border-radius: 5px;
+		.PantonExtraBold;
+		color: #ffffff;
+		font-size: 1.875rem; /* Approximation due to font substitution */
+		font-weight: 700;
+
+	}
+	&-text4 {
+		margin-top: 10rem;
+		.PantonSemiBold;
+		color: #ffffff;
+		font-size: 1.5rem; /* Approximation due to font substitution */
+		font-weight: 600;
+		text-align: center;
+		
+	}
+	img {
+		margin-bottom: 11rem;
+	}
+}
+
+.block2 {
+
+	&-text1 {
+		text-transform: uppercase;
+		margin-top: 15rem;
+		.PantonExtraBold;
+		color: #363636;
+		font-size: 2.25rem; /* Approximation due to font substitution */
+		font-weight: 900;
+		text-align: center;
+	}
+	h2	{
+		margin-left: 2rem;
+		.PantonExtraBold;
+		color: #363636;
+		font-size: 1.875rem; /* Approximation due to font substitution */
+		font-weight: 700;
+		text-align: left;
+		text-transform: uppercase;
+	}
+	h3 {
+		.PantonSemiBold;
+		color: #000000;
+		font-size: 1.125rem; /* Approximation due to font substitution */
+		font-weight: 600;
+		text-align: left;
+	}
+	img {
+		vertical-align: top;
+		margin-left: 2rem;
+		width: 70px;
+		height: 56px;
+	}
+	
+	&-content1 {
+		margin-top: 11rem;
+		
+	}
+	&-content2 {
+		margin-top: 11rem;
+	}
+	
+}
+.block2-content1:before {
+	content:'';
+	position: absolute;
+	display: inline-block;
+	width: 3.5px;
+	height: 9.5rem;
+	background-color: #059feb;
+}
+.block2-content2:before {
+	
+	content:'';
+	position: absolute;
+	display: inline-block;
+	width: 3.5px;
+	height: 9.5rem;
+	background-color: #059feb;
+}
+
+.block3 {
+	background: url('../img/bg2.jpg') no-repeat center center;
+	background-size: 100%;
+	height: 70rem;
+}
+

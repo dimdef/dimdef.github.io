@@ -1,238 +1,346 @@
-@font-face {
-  font-family: 'PantonBlack';
-  src: url('/fonts/PantonBlack.eot');
-  src: url('/fonts/PantonBlack.eot') format('embedded-opentype'), url('/fonts/PantonBlack.woff2') format('woff2'), url('/fonts/PantonBlack.woff') format('woff'), url('/fonts/PantonBlack.ttf') format('truetype'), url('/fonts/PantonBlack.svg#PantonBlack') format('svg');
-  font-weight: 900;
-  font-style: normal;
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
 }
 @font-face {
-  font-family: 'PantonLight';
-  src: url('/fonts/PantonLight.eot');
-  src: url('/fonts/PantonLight.eot') format('embedded-opentype'), url('/fonts/PantonLight.woff2') format('woff2'), url('/fonts/PantonLight.woff') format('woff'), url('/fonts/PantonLight.ttf') format('truetype'), url('/fonts/PantonLight.svg#PantonLight') format('svg');
-  font-weight: 300;
-  font-style: normal;
+  font-family: 'P22UndergroundCYProBook';
+  src: url('/fonts/P22UndergroundCYProBook.eot');
+  src: url('/fonts/P22UndergroundCYProBook.eot') format('embedded-opentype'), url('/fonts/P22UndergroundCYProBook.woff2') format('woff2'), url('/fonts/P22UndergroundCYProBook.woff') format('woff'), url('/fonts/P22UndergroundCYProBook.ttf') format('truetype'), url('/fonts/P22UndergroundCYProBook.svg#P22UndergroundCYProBook') format('svg');
 }
 @font-face {
-  font-family: 'PantonExtraBold';
-  src: url('fonts/PantonExtraBold.eot');
-  src: url('fonts/PantonExtraBold.eot') format('embedded-opentype'), url('fonts/PantonExtraBold.woff2') format('woff2'), url('fonts/PantonExtraBold.woff') format('woff'), url('fonts/PantonExtraBold.ttf') format('truetype'), url('fonts/PantonExtraBold.svg#PantonExtraBold') format('svg');
-  font-weight: 800;
-  font-style: normal;
+  font-family: 'P22UndergroundCYProDemi';
+  src: url('/fonts/P22UndergroundCYProDemi.eot');
+  src: url('/fonts/P22UndergroundCYProDemi.eot') format('embedded-opentype'), url('/fonts/P22UndergroundCYProDemi.woff2') format('woff2'), url('/fonts/P22UndergroundCYProDemi.woff') format('woff'), url('/fonts/P22UndergroundCYProDemi.ttf') format('truetype'), url('/fonts/P22UndergroundCYProDemi.svg#P22UndergroundCYProDemi') format('svg');
 }
 @font-face {
-  font-family: 'PantonSemiBold';
-  src: url('/fonts/PantonSemiBold.eot');
-  src: url('/fonts/PantonSemiBold.eot') format('embedded-opentype'), url('/fonts/PantonSemiBold.woff2') format('woff2'), url('/fonts/PantonSemiBold.woff') format('woff'), url('/fonts/PantonSemiBold.ttf') format('truetype'), url('/fonts/PantonSemiBold.svg#PantonSemiBold') format('svg');
-  font-weight: 600;
-  font-style: normal;
+  font-family: 'P22UndergroundCYProHeavy';
+  src: url('/fonts/P22UndergroundCYProHeavy.eot');
+  src: url('/fonts/P22UndergroundCYProHeavy.eot') format('embedded-opentype'), url('/fonts/P22UndergroundCYProHeavy.woff2') format('woff2'), url('/fonts/P22UndergroundCYProHeavy.woff') format('woff'), url('/fonts/P22UndergroundCYProHeavy.ttf') format('truetype'), url('/fonts/P22UndergroundCYProHeavy.svg#P22UndergroundCYProHeavy') format('svg');
 }
-a:hover {
-  text-decoration: none;
+@font-face {
+  font-family: 'P22UndergroundCYProMedium';
+  src: url('/fonts/P22UndergroundCYProMedium.eot');
+  src: url('/fonts/P22UndergroundCYProMedium.eot') format('embedded-opentype'), url('/fonts/P22UndergroundCYProMedium.woff2') format('woff2'), url('/fonts/P22UndergroundCYProMedium.woff') format('woff'), url('/fonts/P22UndergroundCYProMedium.ttf') format('truetype'), url('/fonts/P22UndergroundCYProMedium.svg#P22UndergroundCYProMedium') format('svg');
 }
-.PantonBlack {
-  font-family: 'PantonBlack', sans-serif;
+@font-face {
+  font-family: 'P22UndergroundCYProThin';
+  src: url('/fonts/P22UndergroundCYProThin.eot');
+  src: url('/fonts/P22UndergroundCYProThin.eot') format('embedded-opentype'), url('/fonts/P22UndergroundCYProThin.woff2') format('woff2'), url('/fonts/P22UndergroundCYProThin.woff') format('woff'), url('/fonts/P22UndergroundCYProThin.ttf') format('truetype'), url('/fonts/P22UndergroundCYProThin.svg#P22UndergroundCYProThin') format('svg');
 }
-.Pantonlight {
-  font-family: 'PantonLight', sans-serif;
+.ProBook {
+  font-family: 'P22UndergroundCYProBook';
 }
-.PantonExtraBold {
-  font-family: 'PantonExtraBold', sans-serif;
+.ProDemi {
+  font-family: 'P22UndergroundCYProDemi';
 }
-.PantonSemiBold {
-  font-family: 'PantonSemiBold';
+.ProHeavy {
+  font-family: 'P22UndergroundCYProHeavy';
 }
-.header {
-  height: 10rem;
-  text-align: center;
-  display: inline-block;
+.ProMedium {
+  font-family: 'P22UndergroundCYProMedium';
 }
-.header-left__block {
-  margin-top: 10%;
-  font-family: 'PantonExtraBold', sans-serif;
-  color: #363636;
-  font-size: 1.5rem;
-  /* Approximation due to font substitution */
-  font-weight: 700;
-}
-.header-phone {
-  font-family: 'PantonExtraBold', sans-serif;
-  color: #363636;
-  font-size: 1.875rem;
-  /* Approximation due to font substitution */
-  font-weight: 700;
-}
-.header-link {
-  font-family: 'PantonSemiBold';
-  color: #363636;
-  font-size: 1.625rem;
-  /* Approximation due to font substitution */
-  font-weight: 600;
-  text-align: center;
-  border-radius: 10px;
-  border-width: 2px;
-  border-color: #282828;
-  border-style: solid;
-  padding: 1.2rem;
-  width: 263px;
-  height: 47px;
-}
-.header-link:hover {
-  text-decoration: none;
-  color: #363636;
-}
-.menu {
-  background-color: #292d30;
-  text-align: center;
-  text-decoration: none;
-}
-.menu li {
-  padding-right: 1rem;
-  margin-top: 2rem;
-  display: inline;
-}
-.menu li a {
-  font-family: 'PantonLight', sans-serif;
-  color: #ffffff;
-  font-size: 1.875rem;
-  /* Approximation due to font substitution */
-  font-weight: 300;
-  text-align: center;
-  text-transform: none;
-  text-decoration: none;
-}
-.menu li a:hover {
-  color: #ffffff;
-  text-decoration: none;
+.ProThin {
+  font-family: 'P22UndergroundCYProThin';
 }
 .main {
-  text-align: center;
-  background: url(../img/bg.jpg) no-repeat center center;
+  background: url('../img/bg1.jpg') no-repeat center center;
   background-size: cover;
 }
-.main-logo {
+.header {
+  padding-top: 3rem;
+}
+.header-logo {
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 0%;
+  margin-top: 0%;
   display: inline-block;
-  background: url(../img/BeamLightLogoWhite.svg) no-repeat center center;
-  background-size: 100%;
-  height: 8rem;
-  width: 47rem;
-  margin-top: 10rem;
+  width: 10rem;
+  height: 5rem;
 }
-.main-text1 {
-  font-family: 'PantonBlack', sans-serif;
-  color: #ffffff;
-  font-size: 2.5rem;
-  /* Approximation due to font substitution */
-  font-weight: 900;
-}
-.main-text2 {
-  font-family: 'PantonSemiBold';
-  color: #ffffff;
-  font-size: 1.5rem;
-  /* Approximation due to font substitution */
-  font-weight: 600;
-}
-.main-text3 {
-  line-height: 7rem;
-  vertical-align: top;
-  margin-top: 5rem;
-  font-family: 'PantonSemiBold';
-  color: #ffffff;
-  font-size: 1.5rem;
-  /* Approximation due to font substitution */
-  font-weight: 600;
-  text-align: center;
-}
-.main-text3:after {
-  content: url('../img/arrow.svg');
-  vertical-align: bottom;
+.header-logo-text {
+  padding-left: 0;
   display: inline-block;
-  width: 3rem;
-  height: 3rem;
-  padding-top: 0rem;
 }
-.main-btn {
-  padding: 1.2rem;
-  margin-top: 3rem;
-  background-color: #059feb;
-  width: 350px;
-  height: 66px;
-  border-radius: 5px;
-  font-family: 'PantonExtraBold', sans-serif;
+.header-logo-text h2 {
+  padding-top: 0;
+  font-family: 'P22UndergroundCYProHeavy';
   color: #ffffff;
-  font-size: 1.875rem;
-  /* Approximation due to font substitution */
-  font-weight: 700;
-}
-.main-text4 {
-  margin-top: 10rem;
-  font-family: 'PantonSemiBold';
-  color: #ffffff;
-  font-size: 1.5rem;
-  /* Approximation due to font substitution */
-  font-weight: 600;
-  text-align: center;
-}
-.main img {
-  margin-bottom: 11rem;
-}
-.block2-text1 {
-  text-transform: uppercase;
-  margin-top: 15rem;
-  font-family: 'PantonExtraBold', sans-serif;
-  color: #363636;
-  font-size: 2.25rem;
-  /* Approximation due to font substitution */
-  font-weight: 900;
-  text-align: center;
-}
-.block2 h2 {
-  margin-left: 2rem;
-  font-family: 'PantonExtraBold', sans-serif;
-  color: #363636;
-  font-size: 1.875rem;
-  /* Approximation due to font substitution */
-  font-weight: 700;
-  text-align: left;
-  text-transform: uppercase;
-}
-.block2 h3 {
-  font-family: 'PantonSemiBold';
-  color: #000000;
   font-size: 1.125rem;
   /* Approximation due to font substitution */
-  font-weight: 600;
+  font-weight: 800;
+  line-height: 0.889;
+  /* Approximation due to font substitution */
   text-align: left;
 }
-.block2 img {
-  vertical-align: top;
-  margin-left: 2rem;
-  width: 70px;
-  height: 56px;
-}
-.block2-content1 {
-  margin-top: 11rem;
-}
-.block2-content2 {
-  margin-top: 11rem;
-}
-.block2-content1:before {
-  content: '';
-  position: absolute;
+.header-logo-text p {
   display: inline-block;
-  width: 3.5px;
-  height: 9.5rem;
-  background-color: #059feb;
+  font-family: 'P22UndergroundCYProThin';
+  color: #ffffff;
+  font-size: 0.75rem;
+  /* Approximation due to font substitution */
+  line-height: 1.333;
+  /* Approximation due to font substitution */
+  text-align: left;
 }
-.block2-content2:before {
-  content: '';
-  position: absolute;
+.header-phone {
+  text-align: center;
   display: inline-block;
-  width: 3.5px;
-  height: 9.5rem;
-  background-color: #059feb;
 }
-.block3 {
-  background: url('../img/bg2.jpg') no-repeat center center;
-  background-size: 100%;
-  height: 70rem;
+.header-phone-btn1 {
+  margin-top: 2rem;
+  border-radius: 0.4rem;
+  border-width: 0.1rem;
+  border-color: #ffffff;
+  border-style: solid;
+  width: 16rem;
+  height: 4.9rem;
+  padding: 1rem;
+  font-weight: 100;
+  color: #fff;
+  font-family: 'P22UndergroundCYProThin';
+  font-size: 0.938rem;
+  line-height: 3.433;
+  text-align: center;
+}
+.header-phone-btn1:hover {
+  color: #fff;
+  text-transform: none;
+}
+.header-phone p {
+  margin-top: 0;
+  display: inline-block;
+  font-family: 'P22UndergroundCYProHeavy';
+  color: #ffffff;
+  font-size: 1.563rem;
+  /* Approximation due to font substitution */
+  font-weight: 800;
+  line-height: 2.24;
+  /* Approximation due to font substitution */
+  text-align: right;
+}
+.main-text {
+  margin-top: 3rem;
+  text-align: center;
+}
+.main-text__1 {
+  font-family: 'P22UndergroundCYProHeavy';
+  text-transform: uppercase;
+  color: #ffff33;
+  font-size: 2.313rem;
+  /* Approximation due to font substitution */
+  font-weight: 800;
+  line-height: 1.216;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+.form {
+  margin-top: 3rem;
+}
+.form-content {
+  margin-top: 10rem;
+  vertical-align: middle;
+}
+.form-content li {
+  list-style-image: url('../img/li.svg');
+  font-family: 'P22UndergroundCYProBook';
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.75;
+  text-align: left;
+}
+.form-input {
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem 0;
+  border-radius: 0.5rem;
+  margin-bottom: 5rem;
+}
+.form-input p {
+  font-family: 'P22UndergroundCYProBook';
+  color: #333333;
+  font-size: 1.375rem;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 1.136;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+.form-input form {
+  height: auto;
+}
+.form-input form input {
+  height: 3.6rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 70%;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #cccccc;
+}
+.form-input form input:focus {
+  border: 1px solid #333333;
+}
+.form-input_item {
+  margin: 0 auto;
+}
+.form-input_item span {
+  height: 80%;
+  padding: 1.3rem 1.6rem;
+  background-color: #999999;
+  border-radius: 5px 0 0 5px;
+}
+.form-input_item img {
+  width: 1rem;
+  height: 1.1rem;
+}
+#btn-form {
+  color: #333333;
+  padding: 1rem 0;
+  width: 80%;
+  background-color: #ffff33;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+  border: none;
+  border-bottom: 3px solid #999900;
+}
+#btn-form:focus {
+  outline: none;
+  padding: 1rem 5rem;
+  background-color: #ffff33;
+  border-radius: 5px;
+}
+.money {
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -4rem;
+  display: inline-block;
+  position: absolute;
+  background-size: cover;
+}
+.utp-block {
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.utp-block_item span {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #ffff33;
+  width: 8rem;
+  height: 8rem;
+}
+.utp-block_item span img {
+  width: 50%;
+  line-height: 8rem;
+  height: 8rem;
+  padding-left: 1px;
+}
+.utp-block_item p {
+  font-family: 'P22UndergroundCYProBook';
+  color: #333333;
+  font-size: 1.125rem;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 1.222;
+  /* Approximation due to font substitution */
+  text-align: center;
+  margin-bottom: 0;
+}
+.form-input form input {
+  height: 4.5rem;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  html {
+    font-size: 8px;
+  }
+  .header {
+    padding-left: 15%;
+  }
+  .header-logo-text {
+    display: inline-block;
+  }
+  .header-logo-text h2 {
+    padding-left: 4rem;
+    text-align: left;
+  }
+  .header-logo-text p {
+    padding-left: 4rem;
+    text-align: left;
+  }
+  .form-content {
+    margin-top: 3%;
+    margin-left: 30%;
+  }
+}
+@media (min-width: 450px) and (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+  .header {
+    padding-left: 30%;
+  }
+  .header-logo-text {
+    display: inline-block;
+  }
+  .header-logo-text h2 {
+    padding-left: 4rem;
+    text-align: left;
+  }
+  .header-logo-text p {
+    padding-left: 4rem;
+    text-align: left;
+  }
+  .header-phone {
+    margin-top: 10%;
+  }
+  .form-content {
+    margin-top: 3%;
+    margin-left: 20%;
+  }
+  .money img {
+    margin-left: 28%;
+    width: 60%;
+    height: 60%;
+  }
+}
+@media (max-width: 449px) {
+  html {
+    font-size: 6px;
+  }
+  .header {
+    padding-left: 25%;
+  }
+  .header-logo-text {
+    display: inline-block;
+  }
+  .header-logo-text h2 {
+    padding-left: 6rem;
+    text-align: left;
+  }
+  .header-logo-text p {
+    padding-left: 6rem;
+    text-align: left;
+  }
+  .header-phone {
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  .form-content {
+    margin-top: 3%;
+    margin-left: 20%;
+  }
+  .main-text__1 {
+    font-size: 10px;
+  }
+  .form-input form input {
+    height: 5.3rem;
+  }
+  .money img {
+    margin-left: 28%;
+    width: 50%;
+    height: 50%;
+  }
 }

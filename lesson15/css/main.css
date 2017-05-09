@@ -1,0 +1,361 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'P22UndergroundCYProBook';
+  src: url("../../../../../fonts/P22UndergroundCYProBook.eot");
+  src: url("../../../../../fonts/P22UndergroundCYProBook.eot") format('embedded-opentype'),url("../../../../../fonts/P22UndergroundCYProBook.woff2") format('woff2'),url("../../../../../fonts/P22UndergroundCYProBook.woff") format('woff'),url("../../../../../fonts/P22UndergroundCYProBook.ttf") format('truetype'),url("../../../../../fonts/P22UndergroundCYProBook.svg#P22UndergroundCYProBook") format('svg');
+}
+
+@font-face {
+  font-family: 'P22UndergroundCYProDemi';
+  src: url("../../../../../fonts/P22UndergroundCYProDemi.eot");
+  src: url("../../../../../fonts/P22UndergroundCYProDemi.eot") format('embedded-opentype'),url("../../../../../fonts/P22UndergroundCYProDemi.woff2") format('woff2'),url("../../../../../fonts/P22UndergroundCYProDemi.woff") format('woff'),url("../../../../../fonts/P22UndergroundCYProDemi.ttf") format('truetype'),url("../../../../../fonts/P22UndergroundCYProDemi.svg#P22UndergroundCYProDemi") format('svg');
+}
+
+@font-face {
+  font-family: 'P22UndergroundCYProHeavy';
+  src: url("../../../../../fonts/P22UndergroundCYProHeavy.eot");
+  src: url("../../../../../fonts/P22UndergroundCYProHeavy.eot") format('embedded-opentype'),url("../../../../../fonts/P22UndergroundCYProHeavy.woff2") format('woff2'),url("../../../../../fonts/P22UndergroundCYProHeavy.woff") format('woff'),url("../../../../../fonts/P22UndergroundCYProHeavy.ttf") format('truetype'),url("../../../../../fonts/P22UndergroundCYProHeavy.svg#P22UndergroundCYProHeavy") format('svg');
+}
+
+@font-face {
+  font-family: 'P22UndergroundCYProMedium';
+  src: url("../../../../../fonts/P22UndergroundCYProMedium.eot");
+  src: url("../../../../../fonts/P22UndergroundCYProMedium.eot") format('embedded-opentype'),url("../../../../../fonts/P22UndergroundCYProMedium.woff2") format('woff2'),url("../../../../../fonts/P22UndergroundCYProMedium.woff") format('woff'),url("../../../../../fonts/P22UndergroundCYProMedium.ttf") format('truetype'),url("../../../../../fonts/P22UndergroundCYProMedium.svg#P22UndergroundCYProMedium") format('svg');
+}
+
+@font-face {
+  font-family: 'P22UndergroundCYProThin';
+  src: url("../../../../../fonts/P22UndergroundCYProThin.eot");
+  src: url("../../../../../fonts/P22UndergroundCYProThin.eot") format('embedded-opentype'),url("../../../../../fonts/P22UndergroundCYProThin.woff2") format('woff2'),url("../../../../../fonts/P22UndergroundCYProThin.woff") format('woff'),url("../../../../../fonts/P22UndergroundCYProThin.ttf") format('truetype'),url("../../../../../fonts/P22UndergroundCYProThin.svg#P22UndergroundCYProThin") format('svg');
+}
+
+.ProBook {
+  font-family: 'P22UndergroundCYProBook';
+}
+
+.ProDemi {
+  font-family: 'P22UndergroundCYProDemi';
+}
+
+.ProHeavy,
+.header-logo-text h2 {
+  font-family: 'P22UndergroundCYProHeavy';
+}
+
+.ProMedium {
+  font-family: 'P22UndergroundCYProMedium';
+}
+
+.ProThin {
+  font-family: 'P22UndergroundCYProThin';
+}
+
+.main {
+  background: url("../img/bg1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.header {
+  padding-top: 3rem;
+}
+
+.header-logo {
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 0%;
+  margin-top: 0%;
+  display: inline-block;
+  width: 10rem;
+  height: 5rem;
+}
+
+.header-logo-text {
+  padding-left: 0;
+  display: inline-block;
+}
+
+.header-logo-text h2 {
+  padding-top: 0;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 800;
+  line-height: .889;
+  text-align: left;
+}
+
+.header-logo-text p,
+.header-phone-btn1 {
+  color: #fff;
+  font-family: 'P22UndergroundCYProThin';
+}
+
+.header-logo-text p {
+  display: inline-block;
+  font-size: .75rem;
+  line-height: 1.333;
+  text-align: left;
+}
+
+.header-phone {
+  text-align: center;
+  display: inline-block;
+}
+
+.header-phone-btn1 {
+  margin-top: 2rem;
+  border-radius: .4rem;
+  border-width: .1rem;
+  border-color: #fff;
+  border-style: solid;
+  width: 16rem;
+  height: 4.9rem;
+  padding: 1rem;
+  font-weight: 100;
+  font-size: .938rem;
+  line-height: 3.433;
+  text-align: center;
+}
+
+.header-phone-btn1:hover {
+  color: #fff;
+  text-transform: none;
+}
+
+.header-phone p,
+.main-text__1 {
+  font-family: 'P22UndergroundCYProHeavy';
+  font-weight: 800;
+}
+
+.header-phone p {
+  margin-top: 0;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.563rem;
+  line-height: 2.24;
+  text-align: right;
+}
+
+.main-text {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.main-text__1 {
+  text-transform: uppercase;
+  color: #ff3;
+  font-size: 2.313rem;
+  line-height: 1.216;
+  text-align: center;
+}
+
+.form {
+  margin-top: 3rem;
+}
+
+.form-content {
+  margin-top: 10rem;
+  vertical-align: middle;
+}
+
+.form-content li,
+.form-input p {
+  font-family: 'P22UndergroundCYProBook';
+  font-weight: 300;
+}
+
+.form-content li {
+  list-style-image: url("../img/li.svg");
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 1.75;
+  text-align: left;
+}
+
+.form-input {
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem 0;
+  border-radius: .5rem;
+  margin-bottom: 5rem;
+}
+
+.form-input p {
+  color: #333;
+  font-size: 1.375rem;
+  line-height: 1.136;
+  text-align: center;
+}
+
+.form-input form {
+  height: auto;
+}
+
+.form-input form input {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 70%;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #ccc;
+  height: 4.5rem;
+}
+
+.form-input form input:focus {
+  border: 1px solid #333;
+}
+
+.form-input_item {
+  margin: 0 auto;
+}
+
+.form-input_item span {
+  height: 80%;
+  padding: 1.3rem 1.6rem;
+  background-color: #999;
+  border-radius: 5px 0 0 5px;
+}
+
+.form-input_item img {
+  width: 1rem;
+  height: 1.1rem;
+}
+
+#btn-form {
+  color: #333;
+  padding: 1rem 0;
+  width: 80%;
+  background-color: #ff3;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+  border: 0;
+  border-bottom: 3px solid #990;
+}
+
+#btn-form:focus {
+  outline: 0;
+  padding: 1rem 5rem;
+  background-color: #ff3;
+  border-radius: 5px;
+}
+
+.money {
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -4rem;
+  display: inline-block;
+  position: absolute;
+  background-size: cover;
+}
+
+.utp-block {
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.utp-block_item span {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #ff3;
+  width: 8rem;
+  height: 8rem;
+}
+
+.utp-block_item span img {
+  width: 50%;
+  line-height: 8rem;
+  height: 8rem;
+  padding-left: 1px;
+}
+
+.utp-block_item p {
+  font-family: 'P22UndergroundCYProBook';
+  color: #333;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.222;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media (min-width:769px) and (max-width:991px) {
+  html {
+    font-size: 8px;
+  }
+
+  .header {
+    padding-left: 15%;
+  }
+
+  .header-logo-text {
+    display: inline-block;
+  }
+
+  .header-logo-text h2,
+  .header-logo-text p {
+    padding-left: 4rem;
+    text-align: left;
+  }
+
+  .form-content {
+    margin-top: 3%;
+    margin-left: 30%;
+  }
+}
+
+@media (min-width:450px) and (max-width:768px) {
+  html {
+    font-size: 8px;
+  }
+
+  .header {
+    padding-left: 30%;
+  }
+
+  .header-logo-text {
+    display: inline-block;
+  }
+
+  .header-logo-text h2,
+  .header-logo-text p {
+    padding-left: 4rem;
+    text-align: left;
+  }
+
+  .header-phone {
+    margin-top: 10%;
+  }
+
+  .form-content {
+    margin-top: 3%;
+    margin-left: 30%;
+  }
+}
+
+@media (max-width:449px) {
+  html {
+    font-size: 6px;
+  }
+
+  .header-logo-text {
+    vertical-align: middle;
+    margin: 0 auto;
+    display: table;
+  }
+
+  .header-phone {
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  .money {
+    display: none;
+  }
+}

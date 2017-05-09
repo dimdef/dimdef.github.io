@@ -1,0 +1,346 @@
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+}
+@font-face {
+  font-family: 'P22UndergroundCYProBook';
+  src: url('/fonts/P22UndergroundCYProBook.eot');
+  src: url('/fonts/P22UndergroundCYProBook.eot') format('embedded-opentype'), url('/fonts/P22UndergroundCYProBook.woff2') format('woff2'), url('/fonts/P22UndergroundCYProBook.woff') format('woff'), url('/fonts/P22UndergroundCYProBook.ttf') format('truetype'), url('/fonts/P22UndergroundCYProBook.svg#P22UndergroundCYProBook') format('svg');
+}
+@font-face {
+  font-family: 'P22UndergroundCYProDemi';
+  src: url('/fonts/P22UndergroundCYProDemi.eot');
+  src: url('/fonts/P22UndergroundCYProDemi.eot') format('embedded-opentype'), url('/fonts/P22UndergroundCYProDemi.woff2') format('woff2'), url('/fonts/P22UndergroundCYProDemi.woff') format('woff'), url('/fonts/P22UndergroundCYProDemi.ttf') format('truetype'), url('/fonts/P22UndergroundCYProDemi.svg#P22UndergroundCYProDemi') format('svg');
+}
+@font-face {
+  font-family: 'P22UndergroundCYProHeavy';
+  src: url('/fonts/P22UndergroundCYProHeavy.eot');
+  src: url('/fonts/P22UndergroundCYProHeavy.eot') format('embedded-opentype'), url('/fonts/P22UndergroundCYProHeavy.woff2') format('woff2'), url('/fonts/P22UndergroundCYProHeavy.woff') format('woff'), url('/fonts/P22UndergroundCYProHeavy.ttf') format('truetype'), url('/fonts/P22UndergroundCYProHeavy.svg#P22UndergroundCYProHeavy') format('svg');
+}
+@font-face {
+  font-family: 'P22UndergroundCYProMedium';
+  src: url('/fonts/P22UndergroundCYProMedium.eot');
+  src: url('/fonts/P22UndergroundCYProMedium.eot') format('embedded-opentype'), url('/fonts/P22UndergroundCYProMedium.woff2') format('woff2'), url('/fonts/P22UndergroundCYProMedium.woff') format('woff'), url('/fonts/P22UndergroundCYProMedium.ttf') format('truetype'), url('/fonts/P22UndergroundCYProMedium.svg#P22UndergroundCYProMedium') format('svg');
+}
+@font-face {
+  font-family: 'P22UndergroundCYProThin';
+  src: url('/fonts/P22UndergroundCYProThin.eot');
+  src: url('/fonts/P22UndergroundCYProThin.eot') format('embedded-opentype'), url('/fonts/P22UndergroundCYProThin.woff2') format('woff2'), url('/fonts/P22UndergroundCYProThin.woff') format('woff'), url('/fonts/P22UndergroundCYProThin.ttf') format('truetype'), url('/fonts/P22UndergroundCYProThin.svg#P22UndergroundCYProThin') format('svg');
+}
+.ProBook {
+  font-family: 'P22UndergroundCYProBook';
+}
+.ProDemi {
+  font-family: 'P22UndergroundCYProDemi';
+}
+.ProHeavy {
+  font-family: 'P22UndergroundCYProHeavy';
+}
+.ProMedium {
+  font-family: 'P22UndergroundCYProMedium';
+}
+.ProThin {
+  font-family: 'P22UndergroundCYProThin';
+}
+.main {
+  background: url('../img/bg1.jpg') no-repeat center center;
+  background-size: cover;
+}
+.header {
+  padding-top: 3rem;
+}
+.header-logo {
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 0%;
+  margin-top: 0%;
+  display: inline-block;
+  width: 10rem;
+  height: 5rem;
+}
+.header-logo-text {
+  padding-left: 0;
+  display: inline-block;
+}
+.header-logo-text h2 {
+  padding-top: 0;
+  font-family: 'P22UndergroundCYProHeavy';
+  color: #ffffff;
+  font-size: 1.125rem;
+  /* Approximation due to font substitution */
+  font-weight: 800;
+  line-height: 0.889;
+  /* Approximation due to font substitution */
+  text-align: left;
+}
+.header-logo-text p {
+  display: inline-block;
+  font-family: 'P22UndergroundCYProThin';
+  color: #ffffff;
+  font-size: 0.75rem;
+  /* Approximation due to font substitution */
+  line-height: 1.333;
+  /* Approximation due to font substitution */
+  text-align: left;
+}
+.header-phone {
+  text-align: center;
+  display: inline-block;
+}
+.header-phone-btn1 {
+  margin-top: 2rem;
+  border-radius: 0.4rem;
+  border-width: 0.1rem;
+  border-color: #ffffff;
+  border-style: solid;
+  width: 16rem;
+  height: 4.9rem;
+  padding: 1rem;
+  font-weight: 100;
+  color: #fff;
+  font-family: 'P22UndergroundCYProThin';
+  font-size: 0.938rem;
+  line-height: 3.433;
+  text-align: center;
+}
+.header-phone-btn1:hover {
+  color: #fff;
+  text-transform: none;
+}
+.header-phone p {
+  margin-top: 0;
+  display: inline-block;
+  font-family: 'P22UndergroundCYProHeavy';
+  color: #ffffff;
+  font-size: 1.563rem;
+  /* Approximation due to font substitution */
+  font-weight: 800;
+  line-height: 2.24;
+  /* Approximation due to font substitution */
+  text-align: right;
+}
+.main-text {
+  margin-top: 3rem;
+  text-align: center;
+}
+.main-text__1 {
+  font-family: 'P22UndergroundCYProHeavy';
+  text-transform: uppercase;
+  color: #ffff33;
+  font-size: 2.313rem;
+  /* Approximation due to font substitution */
+  font-weight: 800;
+  line-height: 1.216;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+.form {
+  margin-top: 3rem;
+}
+.form-content {
+  margin-top: 10rem;
+  vertical-align: middle;
+}
+.form-content li {
+  list-style-image: url('../img/li.svg');
+  font-family: 'P22UndergroundCYProBook';
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.75;
+  text-align: left;
+}
+.form-input {
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem 0;
+  border-radius: 0.5rem;
+  margin-bottom: 5rem;
+}
+.form-input p {
+  font-family: 'P22UndergroundCYProBook';
+  color: #333333;
+  font-size: 1.375rem;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 1.136;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+.form-input form {
+  height: auto;
+}
+.form-input form input {
+  height: 3.6rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 70%;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #cccccc;
+}
+.form-input form input:focus {
+  border: 1px solid #333333;
+}
+.form-input_item {
+  margin: 0 auto;
+}
+.form-input_item span {
+  height: 80%;
+  padding: 1.3rem 1.6rem;
+  background-color: #999999;
+  border-radius: 5px 0 0 5px;
+}
+.form-input_item img {
+  width: 1rem;
+  height: 1.1rem;
+}
+#btn-form {
+  color: #333333;
+  padding: 1rem 0;
+  width: 80%;
+  background-color: #ffff33;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+  border: none;
+  border-bottom: 3px solid #999900;
+}
+#btn-form:focus {
+  outline: none;
+  padding: 1rem 5rem;
+  background-color: #ffff33;
+  border-radius: 5px;
+}
+.money {
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -4rem;
+  display: inline-block;
+  position: absolute;
+  background-size: cover;
+}
+.utp-block {
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.utp-block_item span {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #ffff33;
+  width: 8rem;
+  height: 8rem;
+}
+.utp-block_item span img {
+  width: 50%;
+  line-height: 8rem;
+  height: 8rem;
+  padding-left: 1px;
+}
+.utp-block_item p {
+  font-family: 'P22UndergroundCYProBook';
+  color: #333333;
+  font-size: 1.125rem;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 1.222;
+  /* Approximation due to font substitution */
+  text-align: center;
+  margin-bottom: 0;
+}
+.form-input form input {
+  height: 4.5rem;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  html {
+    font-size: 8px;
+  }
+  .header {
+    padding-left: 15%;
+  }
+  .header-logo-text {
+    display: inline-block;
+  }
+  .header-logo-text h2 {
+    padding-left: 4rem;
+    text-align: left;
+  }
+  .header-logo-text p {
+    padding-left: 4rem;
+    text-align: left;
+  }
+  .form-content {
+    margin-top: 3%;
+    margin-left: 30%;
+  }
+}
+@media (min-width: 450px) and (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+  .header {
+    padding-left: 30%;
+  }
+  .header-logo-text {
+    display: inline-block;
+  }
+  .header-logo-text h2 {
+    padding-left: 4rem;
+    text-align: left;
+  }
+  .header-logo-text p {
+    padding-left: 4rem;
+    text-align: left;
+  }
+  .header-phone {
+    margin-top: 10%;
+  }
+  .form-content {
+    margin-top: 3%;
+    margin-left: 20%;
+  }
+  .money img {
+    margin-left: 28%;
+    width: 60%;
+    height: 60%;
+  }
+}
+@media (max-width: 449px) {
+  html {
+    font-size: 6px;
+  }
+  .header {
+    padding-left: 25%;
+  }
+  .header-logo-text {
+    display: inline-block;
+  }
+  .header-logo-text h2 {
+    padding-left: 6rem;
+    text-align: left;
+  }
+  .header-logo-text p {
+    padding-left: 6rem;
+    text-align: left;
+  }
+  .header-phone {
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  .form-content {
+    margin-top: 3%;
+    margin-left: 20%;
+  }
+  .main-text__1 {
+    font-size: 10px;
+  }
+  .form-input form input {
+    height: 5.3rem;
+  }
+  .money img {
+    margin-left: 28%;
+    width: 50%;
+    height: 50%;
+  }
+}

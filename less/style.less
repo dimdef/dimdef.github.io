@@ -1,269 +1,413 @@
-@font-face {
-	font-family: 'PantonBlack';
-	src: url('/fonts/PantonBlack.eot');
-	src: url('/fonts/PantonBlack.eot') format('embedded-opentype'),
-	url('/fonts/PantonBlack.woff2') format('woff2'),
-	url('/fonts/PantonBlack.woff') format('woff'),
-	url('/fonts/PantonBlack.ttf') format('truetype'),
-	url('/fonts/PantonBlack.svg#PantonBlack') format('svg');
-	font-weight: 900;
-	font-style: normal;
+html {
+	font-size: 16px;
 }
-
-
-@font-face {
-	font-family: 'PantonLight';
-	src: url('/fonts/PantonLight.eot');
-	src: url('/fonts/PantonLight.eot') format('embedded-opentype'),
-	url('/fonts/PantonLight.woff2') format('woff2'),
-	url('/fonts/PantonLight.woff') format('woff'),
-	url('/fonts/PantonLight.ttf') format('truetype'),
-	url('/fonts/PantonLight.svg#PantonLight') format('svg');
-	font-weight: 300;
-	font-style: normal;
+body {
+	margin: 0;
 }
 @font-face {
-	font-family: 'PantonExtraBold';
-	src: url('fonts/PantonExtraBold.eot');
-	src: url('fonts/PantonExtraBold.eot') format('embedded-opentype'),
-	url('fonts/PantonExtraBold.woff2') format('woff2'),
-	url('fonts/PantonExtraBold.woff') format('woff'),
-	url('fonts/PantonExtraBold.ttf') format('truetype'),
-	url('fonts/PantonExtraBold.svg#PantonExtraBold') format('svg');
-	font-weight: 800;
-	font-style: normal;
+	font-family: 'P22UndergroundCYProBook';
+	src: url('/fonts/P22UndergroundCYProBook.eot');
+	src: url('/fonts/P22UndergroundCYProBook.eot') format('embedded-opentype'),
+	url('/fonts/P22UndergroundCYProBook.woff2') format('woff2'),
+	url('/fonts/P22UndergroundCYProBook.woff') format('woff'),
+	url('/fonts/P22UndergroundCYProBook.ttf') format('truetype'),
+	url('/fonts/P22UndergroundCYProBook.svg#P22UndergroundCYProBook') format('svg');
 }
-
-
-
 @font-face {
-	font-family: 'PantonSemiBold';
-	src: url('/fonts/PantonSemiBold.eot');
-	src: url('/fonts/PantonSemiBold.eot') format('embedded-opentype'),
-	url('/fonts/PantonSemiBold.woff2') format('woff2'),
-	url('/fonts/PantonSemiBold.woff') format('woff'),
-	url('/fonts/PantonSemiBold.ttf') format('truetype'),
-	url('/fonts/PantonSemiBold.svg#PantonSemiBold') format('svg');
-	font-weight: 600;
-	font-style: normal;
+	font-family: 'P22UndergroundCYProDemi';
+	src: url('/fonts/P22UndergroundCYProDemi.eot');
+	src: url('/fonts/P22UndergroundCYProDemi.eot') format('embedded-opentype'),
+	url('/fonts/P22UndergroundCYProDemi.woff2') format('woff2'),
+	url('/fonts/P22UndergroundCYProDemi.woff') format('woff'),
+	url('/fonts/P22UndergroundCYProDemi.ttf') format('truetype'),
+	url('/fonts/P22UndergroundCYProDemi.svg#P22UndergroundCYProDemi') format('svg');
+}
+@font-face {
+	font-family: 'P22UndergroundCYProHeavy';
+	src: url('/fonts/P22UndergroundCYProHeavy.eot');
+	src: url('/fonts/P22UndergroundCYProHeavy.eot') format('embedded-opentype'),
+	url('/fonts/P22UndergroundCYProHeavy.woff2') format('woff2'),
+	url('/fonts/P22UndergroundCYProHeavy.woff') format('woff'),
+	url('/fonts/P22UndergroundCYProHeavy.ttf') format('truetype'),
+	url('/fonts/P22UndergroundCYProHeavy.svg#P22UndergroundCYProHeavy') format('svg');
+}
+@font-face {
+	font-family: 'P22UndergroundCYProMedium';
+	src: url('/fonts/P22UndergroundCYProMedium.eot');
+	src: url('/fonts/P22UndergroundCYProMedium.eot') format('embedded-opentype'),
+	url('/fonts/P22UndergroundCYProMedium.woff2') format('woff2'),
+	url('/fonts/P22UndergroundCYProMedium.woff') format('woff'),
+	url('/fonts/P22UndergroundCYProMedium.ttf') format('truetype'),
+	url('/fonts/P22UndergroundCYProMedium.svg#P22UndergroundCYProMedium') format('svg');
+
+}
+@font-face {
+	font-family: 'P22UndergroundCYProThin';
+	src: url('/fonts/P22UndergroundCYProThin.eot');
+	src: url('/fonts/P22UndergroundCYProThin.eot') format('embedded-opentype'),
+	url('/fonts/P22UndergroundCYProThin.woff2') format('woff2'),
+	url('/fonts/P22UndergroundCYProThin.woff') format('woff'),
+	url('/fonts/P22UndergroundCYProThin.ttf') format('truetype'),
+	url('/fonts/P22UndergroundCYProThin.svg#P22UndergroundCYProThin') format('svg');
+}
+.ProBook {
+	font-family: 'P22UndergroundCYProBook';
+}
+.ProDemi {
+	font-family: 'P22UndergroundCYProDemi';
+}
+.ProHeavy {
+	font-family: 'P22UndergroundCYProHeavy';
+}
+.ProMedium {
+	font-family: 'P22UndergroundCYProMedium';
+}
+.ProThin {
+	font-family: 'P22UndergroundCYProThin';
 }
 
-a:hover {
-	text-decoration: none;
+.main {
+	background: url('../img/bg1.jpg') no-repeat center center;
+	background-size: cover;
+	
 }
-.PantonBlack {
-	font-family: 'PantonBlack', sans-serif;
-
-}
-.Pantonlight {
-	font-family: 'PantonLight', sans-serif;
-
-}
-.PantonExtraBold {
-	font-family: 'PantonExtraBold', sans-serif;
-}
-
-.PantonSemiBold {
-	font-family: 'PantonSemiBold';
-}
-
 .header {
-	height: 10rem;
-	text-align: center;
-	display: inline-block;
-	&-left__block {
-		margin-top: 10%;
-		.PantonExtraBold;
-		color: #363636;
-		font-size: 1.5rem; /* Approximation due to font substitution */
-		font-weight: 700;
+	padding-top: 3rem;
+
+	
+	&-logo {
+		vertical-align: middle;
+		text-align: center;
+		padding-top: 0%;
+		margin-top: 0%;
+		display: inline-block;
+		width: 10rem;
+		height: 5rem;
+	}
+	
+	&-logo-text {
+		padding-left: 0;
+		display: inline-block;
+		h2 {
+
+			padding-top: 0;
+			.ProHeavy;
+			color: #ffffff;
+			font-size: 1.125rem; /* Approximation due to font substitution */
+			font-weight: 800;
+			line-height: 0.889; /* Approximation due to font substitution */
+			text-align: left;
+		}
+		p {
+			display: inline-block;
+			.ProThin;
+			color: #ffffff;
+			font-size: 0.75rem; /* Approximation due to font substitution */
+			line-height: 1.333; /* Approximation due to font substitution */
+			text-align: left;
+		}
 	}
 	&-phone {
-
-		.PantonExtraBold;
-		color: #363636;
-		font-size: 1.875rem; /* Approximation due to font substitution */
-		font-weight: 700;
-	}
-	&-link {
-		.PantonSemiBold;
-		color: #363636;
-		font-size: 1.625rem; /* Approximation due to font substitution */
-		font-weight: 600;
 		text-align: center;
-		border-radius: 10px;
-		border-width: 2px;
-		border-color: #282828;
-		border-style: solid;
-		padding: 1.2rem;
-		width: 263px;
-		height: 47px;
-		&:hover {
-			text-decoration: none;
-			color: #363636;
-		}
-	}
-}
+		display: inline-block;
+		&-btn1 {
+			
+			margin-top: 2rem;
+			border-radius: 0.4rem;
+			border-width: 0.1rem;
+			border-color: #ffffff;
+			border-style: solid;
+			width: 16rem;
+			height: 4.9rem;
+			padding: 1rem;
 
-.menu {
-	background-color: #292d30;
-	text-align: center;
-
-	text-decoration: none;
-	li {
-		padding-right: 1rem;
-		margin-top: 2rem;
-		display: inline;
-		a {	
-			.Pantonlight;
-			color: #ffffff;
-			font-size: 1.875rem; /* Approximation due to font substitution */
-			font-weight: 300;
+			font-weight: 100;
+			color: #fff;
+			.ProThin;
+			font-size: 0.938rem; 
+			line-height: 3.433; 
 			text-align: center;
-			text-transform: none;
-			text-decoration: none;
 			&:hover {
-				color: #ffffff;
-				text-decoration: none;
-
-			}	
+				color: #fff;
+				text-transform: none;	
+			}
+			
 		}
-	}
-}
-.main {
-	text-align: center;
-	background: url(../img/bg.jpg) no-repeat center center;
-	background-size: cover;
-	&-logo {
-		display: inline-block; 
-		background: url(../img/BeamLightLogoWhite.svg) no-repeat center center;
-		background-size: 100%;
-		height: 8rem;
-		width: 47rem;
-		margin-top: 10rem;
-	}
-	&-text1 {
-		.PantonBlack;
-		color: #ffffff;
-		font-size: 2.5rem; /* Approximation due to font substitution */
-		font-weight: 900;
-	}
-	&-text2 {
-		.PantonSemiBold;
-		color: #ffffff;
-		font-size: 1.5rem; /* Approximation due to font substitution */
-		font-weight: 600;
-
-	}
-	&-text3 {
-		line-height: 7rem;
-		vertical-align: top;
-		margin-top: 5rem;
-		.PantonSemiBold;
-		color: #ffffff;
-		font-size: 1.5rem; /* Approximation due to font substitution */
-		font-weight: 600;
-		text-align: center;
-		&:after{
-			content: url('../img/arrow.svg');
-			vertical-align: bottom;
+		p {
+			margin-top: 0;
 			display: inline-block;
-			width: 3rem;
-			height: 3rem;
-			padding-top: 0rem;
+			.ProHeavy;
+			color: #ffffff;
+			font-size: 1.563rem; /* Approximation due to font substitution */
+			font-weight: 800;
+			line-height: 2.24; /* Approximation due to font substitution */
+			text-align: right;
+		}
+
+
+	}
+	
+}	
+
+.main-text {
+	margin-top: 3rem;
+	text-align: center;
+	&__1 {
+
+		.ProHeavy;
+		text-transform: uppercase;
+		color: #ffff33;
+		font-size: 2.313rem; /* Approximation due to font substitution */
+		font-weight: 800;
+		line-height: 1.216; /* Approximation due to font substitution */
+		text-align: center;	
+	}
+}
+
+.form {
+	margin-top: 3rem;
+	&-content {
+		margin-top: 10rem;
+		vertical-align: middle;
+		li {
+			list-style-image: url('../img/li.svg');
+			.ProBook;
+			color: #ffffff;
+			font-size: 1.25rem; 
+			font-weight: 300;
+			line-height: 1.75;
+			text-align: left;
 		}
 	}
-	&-btn {
-		padding: 1.2rem;
-		margin-top: 3rem;
-		background-color: #059feb;
-		width: 350px;
-		height: 66px;
-		border-radius: 5px;
-		.PantonExtraBold;
-		color: #ffffff;
-		font-size: 1.875rem; /* Approximation due to font substitution */
-		font-weight: 700;
-
-	}
-	&-text4 {
-		margin-top: 10rem;
-		.PantonSemiBold;
-		color: #ffffff;
-		font-size: 1.5rem; /* Approximation due to font substitution */
-		font-weight: 600;
+	&-input {
 		text-align: center;
+		background-color: #fff;
+		padding: 2rem 0;
+		border-radius:0.5rem;
+		margin-bottom: 5rem;
+		p {
+			.ProBook;
+			color: #333333;
+			font-size: 1.375rem; /* Approximation due to font substitution */
+			font-weight: 300;
+			line-height: 1.136; /* Approximation due to font substitution */
+			text-align: center;
+		} 
+		form {
+			height: auto;
+			input {
+				height: 3.6rem;
+				margin-bottom: 1rem;
+				padding: 1rem;
+				width: 70%;
+				border-radius: 0 5px 5px 0;
+				border: 1px solid rgb(204, 204, 204);
+				&:focus{
+					border: 1px solid rgb(51, 51, 51);
+				}
+			}
+
+		}
+		&_item {
+			margin: 0 auto;
+			span {
+				height: 80%;
+				padding: 1.3rem 1.6rem;
+				background-color: rgb(153, 153, 153);
+				border-radius:5px 0 0 5px;
+			}
+			img {
+				width: 1rem;
+				height: 1.1rem;
+			}
+
+		}
+	}
+}
+#btn-form{
+	color:rgb(51, 51, 51);
+	padding:1rem 0;
+	width: 80%;
+	background-color: rgb(255, 255, 51);
+	border-radius:5px;
+	margin-bottom: 3rem;
+	border:none;
+	border-bottom:3px solid #999900;
+	&:focus{
+		outline:none;
+		padding:1rem 5rem;
+		background-color: rgb(255, 255, 51);
+		border-radius:5px;
+	}
+
+}
+.money {
+	left:50%;
+	transform:translateX(-50%);
+	margin-top: -4rem;
+	display:inline-block;	
+	position: absolute;
+	background-size: cover;
+}
+
+
+.utp-block {
+	text-align: center;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	&_item {
+		
+		
+		span {
+			display: inline-block;
+			border-radius: 50%;
+			background-color: #ffff33;
+			width: 8rem;
+			height: 8rem;
+
+			img {
+				width: 50%;
+				line-height:8rem;
+				height: 8rem;
+				padding-left: 1px;
+			}
+		}
+		p {
+			.ProBook;
+			color: #333333;
+			font-size: 1.125rem; /* Approximation due to font substitution */
+			font-weight: 300;
+			line-height: 1.222; /* Approximation due to font substitution */
+			text-align: center;
+			margin-bottom: 0;
+		}
+	}
+
+}
+.form-input {
+	form {
+		input {
+			height: 4.5rem;
+		}
+	}
+}
+@media (min-width:769px) and (max-width:991px){
+	html{
+		font-size: 8px;
+	}
+
+	.header {
+		padding-left: 15%;
+		&-logo-text {
+			display: inline-block;
+			h2 {
+
+				padding-left: 4rem;
+				text-align: left;
+			}
+			p {
+				padding-left: 4rem;
+				text-align: left;
+			}
+		}
+	}
+	.form-content {
+		margin-top: 3%;
+		margin-left: 30%;
+	}
+
+	
+}
+@media (min-width:450px) and (max-width:768px){
+	html{
+		font-size: 8px;
+	}
+	.header {
+		padding-left: 30%;
+		&-logo-text {
+			display: inline-block;
+			h2 {
+
+				padding-left: 4rem;
+				text-align: left;
+			}
+			p {
+				padding-left: 4rem;
+				text-align: left;
+			}
+		}
+		&-phone {
+			margin-top: 10%;
+		}
+	}
+	.form-content {
+		margin-top: 3%;
+		margin-left: 20%;
+	}
+
+
+	.money {
+		img {
+			margin-left: 28%;
+			width: 60%;
+			height: 60%;
+		}	
+	}
+}
+
+
+@media (max-width:449px){
+	html{
+		font-size: 6px;
+	}
+	.header {
+		padding-left: 25%;
+		&-logo-text {
+			display: inline-block;
+			h2 {
+				padding-left: 6rem;
+				text-align: left;
+			}
+			p {
+				padding-left: 6rem;
+				text-align: left;
+			}
+		}
+		&-phone {
+			margin-top: 15%;
+			margin-left: 10%;
+		}
+	}
+	.form-content {
+		margin-top: 3%;
+		margin-left: 20%;
+	}
+
+	.main-text__1 {
+		font-size: 10px;
+	}
+	.form-input {
+		form {
+			input {
+				height: 5.3rem;
+			}
+		}
+	}
+	.money {
+		img {
+			margin-left: 28%;
+			width: 50%;
+			height: 50%;
+		}
+	}
+}
+/* @media (max-width: 920px) {
+	.box {
+		width: 400px;
+		height: auto;
 		
 	}
-	img {
-		margin-bottom: 11rem;
-	}
+	.first, .second {
+	width: 380px;
 }
-
-.block2 {
-
-	&-text1 {
-		text-transform: uppercase;
-		margin-top: 15rem;
-		.PantonExtraBold;
-		color: #363636;
-		font-size: 2.25rem; /* Approximation due to font substitution */
-		font-weight: 900;
-		text-align: center;
-	}
-	h2	{
-		margin-left: 2rem;
-		.PantonExtraBold;
-		color: #363636;
-		font-size: 1.875rem; /* Approximation due to font substitution */
-		font-weight: 700;
-		text-align: left;
-		text-transform: uppercase;
-	}
-	h3 {
-		.PantonSemiBold;
-		color: #000000;
-		font-size: 1.125rem; /* Approximation due to font substitution */
-		font-weight: 600;
-		text-align: left;
-	}
-	img {
-		vertical-align: top;
-		margin-left: 2rem;
-		width: 70px;
-		height: 56px;
-	}
-	
-	&-content1 {
-		margin-top: 11rem;
-		
-	}
-	&-content2 {
-		margin-top: 11rem;
-	}
-	
-}
-.block2-content1:before {
-	content:'';
-	position: absolute;
-	display: inline-block;
-	width: 3.5px;
-	height: 9.5rem;
-	background-color: #059feb;
-}
-.block2-content2:before {
-	
-	content:'';
-	position: absolute;
-	display: inline-block;
-	width: 3.5px;
-	height: 9.5rem;
-	background-color: #059feb;
-}
-
-.block3 {
-	background: url('../img/bg2.jpg') no-repeat center center;
-	background-size: 100%;
-	height: 70rem;
-}
-
+} */

@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.tab {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  background-color: #aeaeae;
+  height: 40px;
+  line-height: 40px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.tab:hover {
+  cursor: pointer;
+}
+
+.tab-content {
+  padding: 10px;
+  display: none;
+  width: 610px;
+  height: 200px;
+  background-color: rgba(0,0,0,.1);
+}
+
+.tab-content-1 {
+  display: block;
+}

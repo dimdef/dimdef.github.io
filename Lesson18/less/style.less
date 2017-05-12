@@ -1,0 +1,97 @@
+body {
+	font-size: 10px;
+	
+}
+
+.ubuntu {
+	font-family: 'Ubuntu', sans-serif;
+
+}
+.os {
+	font-family: 'Open Sans', sans-serif;
+
+}
+.main {
+	background: url('../img/bg.jpg') no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	&-text {
+		text-align: center;
+		h2 {
+			margin-top: 30%;
+			.os;
+			color: #000000;
+			font-size: 24px; /* Approximation due to font substitution */
+			font-weight: 700;
+			line-height: 45px; /* Approximation due to font substitution */
+
+		}
+		h3 {
+			.ubuntu;
+			color: #000000;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 22px;
+			text-align: center;
+		}
+	}
+}
+.form {
+	text-align: center;
+	&-control {
+		margin-top: 2rem;
+
+	}
+
+}	
+.fa {
+	display: block;
+	position: absolute;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	left: 1.7rem;
+	bottom: 2rem;
+}
+.btn {
+	display: inline-block;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 20%;
+	background-color: #82c5c3;
+	border-radius: 30px;
+	width: 179px;
+	height: 53px;
+}
+
+.login {
+	margin-top: 10%;
+	display: inline-block;
+	.ubuntu;
+	font-size: 1.2rem;
+	color:#000;
+	padding-right: 2rem;
+	margin-left: 4rem;
+	margin-bottom: 4rem;
+}
+.login-link{
+	margin-top: 10%;
+	margin-left: 10%;
+	color:rgb(246, 154, 122);
+	font-size: 1.2rem;
+	&:hover, &:focus{
+		text-decoration: none;
+		color:rgb(246, 154, 122);
+	}
+}
+.error {
+	
+	border: 1px solid red;
+	color: red;
+	.ubuntu;
+}
+label.error {
+	border: none;
+}

@@ -68,7 +68,7 @@
          <div class="col-md-3 col-md-offset-1">
            <div class="main-form-input">
              <h5> Оставьте заявку и мы<br>Вам перезвоним</h5>
-            <form id="form" action="/index.php" method="POST">
+             <form id="main-form">
               <input type="hidden" name="whatever1" value="Главная форма">
               <input id="inputName" type="text" name="name" placeholder="ФИО ...">
               <input type="text" name="telehone" placeholder="Телефон ...">
@@ -454,7 +454,7 @@
    <div class="col-md-9">
      <div class="callcentr-form-input">
 
-       <form id="form" action="smart02.php" method="post">
+       <form id="form" action="smart02.php" method="POST">
          <input type="hidden" name="whatever2" value="форма футера">
          <input type="text" name="name" placeholder="ФИО ...">
          <input type="text" name="telehone" placeholder="Телефон ...">
@@ -547,8 +547,27 @@ $(".zakaz").click(function() {
 });
 
 </script>
+<script>
+  $(document).ready(function() {
 
+  $("#main-form").submit(function() {
+    $.ajax({
+      type: "POST",
+      url: "mail.php",
+      data: $(this).serialize()
+    }).done(function() {
+      $(this).find("input").val("");
+      alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
+      $("#main-form").trigger("reset");
+    });
+    return false;
+  });
+  
+});
+</script>
 
 
 </body>
 </html>
+
+<!--  action="mail.php" method="POST" -->

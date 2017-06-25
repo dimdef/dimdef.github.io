@@ -68,7 +68,7 @@
          <div class="col-md-3 col-md-offset-1">
            <div class="main-form-input">
              <h5> Оставьте заявку и мы<br>Вам перезвоним</h5>
-             <form id="main-form">
+             <form id="main-form-ajax">
               <input type="hidden" name="whatever1" value="Главная форма">
               <input id="inputName" type="text" name="name" placeholder="ФИО ...">
               <input type="text" name="telehone" placeholder="Телефон ...">
@@ -550,7 +550,7 @@ $(".zakaz").click(function() {
 <script>
   $(document).ready(function() {
 
-  $("#main-form").submit(function() {
+  $("#main-form-ajax").submit(function() {
     $.ajax({
       type: "POST",
       url: "mail.php",
@@ -558,7 +558,7 @@ $(".zakaz").click(function() {
     }).done(function() {
       $(this).find("input").val("");
       alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
-      $("#main-form").trigger("reset");
+      $("#main-form-ajax").trigger("reset");
     });
     return false;
   });

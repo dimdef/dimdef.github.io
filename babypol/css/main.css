@@ -1,0 +1,647 @@
+@font-face {
+  font-family: 'PF BeauSans Pro Bbook';
+  src: url("PFBeauSansPro-Bbook.eot");
+  src: url("PFBeauSansPro-Bbook.eot?#iefix") format('embedded-opentype'),url("PFBeauSansPro-Bbook.woff") format('woff'),url("PFBeauSansPro-Bbook.ttf") format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro Bold';
+  src: url("PFBeauSansPro-Bold.eot");
+  src: url("PFBeauSansPro-Bold.eot?#iefix") format('embedded-opentype'),url("PFBeauSansPro-Bold.woff") format('woff'),url("PFBeauSansPro-Bold.ttf") format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro Regular';
+  src: url("PFBeauSansPro-Regular.eot");
+  src: url("PFBeauSansPro-Regular.eot?#iefix") format('embedded-opentype'),url("PFBeauSansPro-Regular.woff") format('woff'),url("PFBeauSansPro-Regular.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro Light';
+  src: url("PFBeauSansPro-Light.eot");
+  src: url("PFBeauSansPro-Light.eot?#iefix") format('embedded-opentype'),url("PFBeauSansPro-Light.woff") format('woff'),url("PFBeauSansPro-Light.ttf") format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro Black';
+  src: url("PFBeauSansPro-Black.eot");
+  src: url("PFBeauSansPro-Black.eot?#iefix") format('embedded-opentype'),url("PFBeauSansPro-Black.woff") format('woff'),url("PFBeauSansPro-Black.ttf") format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+.Bbook {
+  font-family: 'PF BeauSans Pro Bbook';
+}
+
+.Regular {
+  font-family: 'PF BeauSans Pro Regular';
+}
+
+.light {
+  font-family: 'PF BeauSans Pro Light';
+}
+
+.bold {
+  font-family: 'PF BeauSans Pro Bold';
+}
+
+.black {
+  font-family: 'PF BeauSans Pro Black';
+}
+
+html {
+  font-size: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  background-color: #a2cdf2;
+  width: 100%;
+  height: 10rem;
+}
+
+.header-logo {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  left: 20%;
+  transform: translateX(-50%);
+  margin-top: 0%;
+  display: inline-block;
+  position: absolute;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.header-logo:hover {
+  overflow: hidden;
+  transform: translateY(5%) rotate(15deg);
+}
+
+.header-logo .wrap:hover {
+  background-color: rgba(247,247,247,.5);
+}
+
+.header-text {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 50%;
+  padding-right: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.header-text:focus {
+  background-color: #fff;
+  background-size: 100%;
+}
+
+.header a,
+.header-phone p {
+  font-family: 'PF BeauSans Pro Regular';
+  font-weight: 400;
+}
+
+.header a {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.header a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(247,247,247,.3);
+}
+
+.header-phone {
+  background-color: #fff;
+  box-shadow: 2px 4px 0 0 rgba(45,46,45,.15);
+  width: 100%;
+  height: 12rem;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.header-phone h2,
+.header-phone p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #6eaec0;
+  text-align: center;
+}
+
+.header-phone p {
+  padding-top: 1.5rem;
+}
+
+.header-phone h2,
+.main h2,
+.main h3,
+.main h4 {
+  font-family: 'PF BeauSans Pro Bold';
+  font-weight: 700;
+}
+
+.header-phone h2 {
+  padding-bottom: 1.5rem;
+}
+
+.main {
+  background: url("../img/bg1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.main h2,
+.main h3,
+.main h4 {
+  color: #fff;
+  text-align: left;
+}
+
+.main h2 {
+  margin-top: 15%;
+  font-size: 5rem;
+  line-height: 6rem;
+}
+
+.main h3,
+.main h4 {
+  padding-top: 5%;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.main h4 {
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+
+.main-form-input {
+  height: auto;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+
+.main-form-input input {
+  padding-left: 2rem;
+  background-color: #fff;
+  width: 30rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  border: .3rem solid #a2cdf2;
+}
+
+.callcentr-form-input input:focus,
+.main-form-input input:focus {
+  border: .3rem solid #3a96e5;
+}
+
+.main-form-input h5,
+.main-form-input h6 {
+  margin-top: 4rem;
+  font-family: 'PF BeauSans Pro Bold';
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3rem;
+  text-align: center;
+  transform: scaleX(1.001);
+}
+
+.main-form-input h6 {
+  margin-top: 2rem;
+}
+
+#btn-form {
+  color: #fff;
+  padding: 1rem 0;
+  width: 30rem;
+  height: 4rem;
+  background-color: #3a96e5;
+  border-radius: 5px;
+  border: 0;
+  border-bottom: 3px solid #4c4d4e;
+}
+
+#btn-form:focus {
+  outline: 0;
+  padding: 1rem 5rem;
+  background-color: #3a96e5;
+  border: .3rem solid #a2cdf2;
+}
+
+.line {
+  background-color: #a2cdf2;
+  width: 100%;
+  height: 1rem;
+}
+
+.utp-block {
+  background-color: #d0e6f8;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.utp-block_text h2 {
+  color: #3a96e5;
+  font-size: 5rem;
+  line-height: 7rem;
+}
+
+.blockwhy span,
+.dostavka span,
+.utp-block span {
+  display: inline-block;
+  padding-top: 3rem;
+}
+
+.utp-block span img {
+  width: 80%;
+  height: 80%;
+}
+
+.product h3,
+.utp-block p {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.product h2,
+.utp-block p,
+.utp-block_text h2 {
+  font-family: 'PF BeauSans Pro Bold';
+  font-weight: 700;
+}
+
+.utp-block p {
+  line-height: 2.8rem;
+  color: #626363;
+  font-size: 2.4rem;
+}
+
+.product h2 {
+  margin-top: 5%;
+  text-align: center;
+  color: #3a96e5;
+  font-size: 4.8rem;
+  line-height: .292;
+}
+
+.product h3 {
+  font-family: 'PF BeauSans Pro Light';
+  color: #2b4370;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: .468;
+}
+
+.product-cart {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  text-align: center;
+  margin-top: 5rem;
+  border-width: 2px;
+  border-color: #dff0fc;
+  border-style: solid;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.product-cart:hover {
+  width: 100%;
+  height: 100%;
+  transform: translateY(0%) rotate(5deg);
+  background-color: rgba(255,255,255,.9);
+}
+
+.product-cart a.zakaz,
+.product-cart h4,
+.product-cart h5 {
+  font-family: 'PF BeauSans Pro Light';
+  color: #579090;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.product-cart a.zakaz,
+.product-cart h5 {
+  color: #4c4d4e;
+  font-weight: 300;
+  line-height: 1.333;
+}
+
+.image-source-link {
+  color: #98c3d1;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+  opacity: 1;
+}
+
+.mfp-with-zoom.mfp-ready.mfp-bg {
+  opacity: .8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+.product-cart a.zakaz {
+  font-family: 'PF BeauSans Pro Black';
+  font-weight: 900;
+  line-height: 1;
+  text-decoration: none;
+  width: 100%;
+  color: #fff;
+  padding: 1rem 5rem;
+  background-color: #2b4370;
+  border: 0 solid #2b4370;
+  display: inline-block;
+  border-radius: .5rem;
+  box-shadow: 0 5px 15px 2px rgba(237,26,74,.3);
+  margin: 0 auto;
+}
+
+.product-cart a.zakaz:focus {
+  outline: 0;
+  padding: 1rem 5rem;
+  background-color: #2b4370;
+  text-decoration: none;
+  border: .3rem solid #4c4d4e;
+}
+
+.line-3 {
+  margin-top: 5rem;
+  background-color: #a2cdf2;
+  width: 100%;
+  height: 1rem;
+}
+
+.blockwhy {
+  text-align: center;
+  background-color: #dff0fc;
+}
+
+.blocksostoit p,
+.blockwhy h2,
+.dostavka h2 {
+  font-family: 'PF BeauSans Pro Bold';
+  color: #3a96e5;
+  font-weight: 700;
+}
+
+.blockwhy h2 {
+  margin-top: 5%;
+  font-size: 3.8rem;
+  line-height: .292;
+  transform: scaleX(1.0002);
+}
+
+.blockwhy span img {
+  width: 80%;
+  height: 80%;
+  box-shadow: 2px 4px 0 0 rgba(45,46,45,.15);
+  border-radius: 68px;
+}
+
+.blockwhy p {
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+  font-family: 'PF BeauSans Pro Light';
+  color: #848585;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.333;
+  text-align: center;
+  transform: scaleX(1.0002);
+}
+
+.blocksostoit {
+  background-color: #f7f7f7;
+}
+
+.blocksostoit p,
+.dostavka h2 {
+  text-align: center;
+}
+
+.blocksostoit p {
+  padding-top: 5%;
+  font-size: 3.8rem;
+  line-height: .55;
+}
+
+.blocksostoit h2 {
+  padding-top: 2rem;
+  font-family: 'PF BeauSans Pro Light';
+  color: #3a96e5;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: .4;
+  text-align: left;
+}
+
+.blocksostoit img {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.dostavka {
+  background-color: #d0e6f8;
+}
+
+.dostavka h2 {
+  font-size: 4.8rem;
+  line-height: .75;
+}
+
+.dostavka h3,
+.dostavka h5 {
+  font-family: 'PF BeauSans Pro Regular';
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.dostavka h3,
+.dostavka h5,
+.dostavka p {
+  color: #848585;
+  line-height: 1.2;
+}
+
+.dostavka h5 {
+  padding-top: 0;
+}
+
+.dostavka_arrow {
+  padding-left: 3rem;
+}
+
+.dostavka_smile {
+  padding-left: 1rem;
+}
+
+.dostavka p {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.callcentr {
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.callcentr h2,
+.callcentr h3,
+.callcentr h4,
+.dostavka p {
+  font-family: 'PF BeauSans Pro Bold';
+  font-weight: 700;
+}
+
+.callcentr h2 {
+  padding-top: 3rem;
+  color: #3a96e5;
+  font-size: 4.8rem;
+  line-height: .292;
+}
+
+.callcentr h3,
+.callcentr h4 {
+  font-size: 2.4rem;
+  line-height: 1.25;
+}
+
+.callcentr h3 {
+  padding-top: 2rem;
+  color: #848585;
+}
+
+.callcentr h4 {
+  margin-top: 1rem;
+  color: #3a96e5;
+}
+
+.callcentr-form-input {
+  height: auto;
+  padding-bottom: 7rem;
+  margin-top: 1rem;
+}
+
+.callcentr-form-input input {
+  padding-left: 2rem;
+  background-color: #fff;
+  width: 20rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  border: .3rem solid #a2cdf2;
+}
+
+.selectpicker,
+.selectpicker1 {
+  margin-top: 1rem;
+  width: 30rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  border: .3rem solid #a2cdf2;
+}
+
+.selectpicker {
+  width: 25rem;
+}
+
+#btn-form-2 {
+  color: #fff;
+  padding: 1rem 0;
+  width: 20rem;
+  height: 4rem;
+  background-color: #3a96e5;
+  border-radius: 5px;
+  border: 0;
+  border-bottom: 3px solid #4c4d4e;
+}
+
+#btn-form-2:focus {
+  outline: 0;
+  padding: 1rem 0;
+  background-color: #4c4d4e;
+  border: 0 solid #4c4d4e;
+}
+
+.footer {
+  background-color: #a2cdf2;
+  padding-bottom: 3rem;
+}
+
+.footer-logo {
+  left: 50%;
+  transform: translateX(-10%);
+  margin-top: 0%;
+  display: inline-block;
+  position: absolute;
+}
+
+.footer-logo img {
+  width: 50%;
+  height: 50%;
+}
+
+.footer p {
+  font-family: 'PF BeauSans Pro Regular';
+  color: #feffff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.286;
+  text-align: right;
+}
+
+.error {
+  border: 1px solid red;
+  color: red;
+  font-family: 'PF BeauSans Pro Bold';
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+label.error {
+  border: 0;
+  text-align: center;
+}
